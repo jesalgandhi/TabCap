@@ -1,0 +1,27 @@
+  {
+    "name": "TabCap",
+    "description": "Productivity/efficiency tool that allows you to limit the amount of opened tabs (for all windows)",
+    "version": "1.0",
+    "manifest_version": 3,
+
+      "action": {
+        "default_title": "TabCap"
+    },
+
+    "permissions": [
+        "tabs", 
+        "storage"
+    ],
+
+    "background": {
+        "service_worker": "background.js"
+      },
+
+    "options_page": "options.html",
+
+    "icons": {
+        "16": "icons/16.png",
+        "48": "icons/48.png",
+        "128": "icons/128.png"
+    }
+  }
